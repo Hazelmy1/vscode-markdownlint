@@ -31,7 +31,7 @@ When describing an issue, the following information is helpful:
 - What version were you using?
 - What operating system were you using?
 
-The simplest demonstration of a problem is the most helpful. Small examples can be pasted into the issue description. (Be sure to paste as code so GitHub doesn't render the example in Markdown.) For larger examples, linking to a repository or file is more appropriate.
+The simplest demonstration of a problem is the most helpful. Small examples can be pasted into the issue description. (Be sure to paste as code so GitHub doesn't render the example in ) For larger examples, linking to a repository or file is more appropriate.
 
 Before proposing a new rule, please review the existing suggestions: https://github.com/DavidAnson/markdownlint/issues?q=is%3Aissue+is%3Aopen+label%3A%22new+rule%22
 
