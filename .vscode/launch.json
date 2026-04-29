@@ -1,6 +1,54 @@
 {
 	"version": "0.2.0",
 	"configurations": [
+		
+
+		{
+			"type": "cmake",
+			"request": "launch",
+			"name": "CMake: Script debugging",
+			"cmakeDebugType": "script",
+			"scriptPath": "${workspaceFolder}/<...>.cmake"
+		},
+		{
+			"type": "cmake",
+			"request": "launch",
+			"name": "CMake: Externally launched",
+			"cmakeDebugType": "external",
+			"pipeName": "<...>"
+		},
+		{
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}"
+			],
+			"name": "Launch Extension",
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			],
+			"preLaunchTask": "npm",
+			"request": "launch",
+			"type": "extensionHost"
+		},
+		{
+			"type": "cmake",
+			"request": "launch",
+			"name": "CMake: Configure project",
+			"cmakeDebugType": "configure",
+			"clean": false,
+			"configureAll": false
+		},
+		{
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}"
+			],
+			"name": "Launch Extension",
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			],
+			"preLaunchTask": "npm",
+			"request": "launch",
+			"type": "extensionHost"
+		},
 		{
 			"name": "Launch Extension",
 			"type": "extensionHost",
