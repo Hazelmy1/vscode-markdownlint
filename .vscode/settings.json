@@ -13,5 +13,20 @@
     "inlineChat.affordance": "editor",
     "inlineChat.notebookAgent": true,
     "inlineChat.renderMode": "hover",
-    "chat.allowAnonymousAccess": true
+    "chat.allowAnonymousAccess": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "editor.mouseWheelZoom": true,
+    "interactiveWindow.executeWithShiftEnter": true,
+    "interactiveWindow.promptToSaveOnClose": true,
+    "notebook.defaultFormatter": "GitHub.copilot-chat",
+    "notebook.diff.ignoreMetadata": true,
+    "notebook.formatOnCellExecution": false,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.globalToolbarShowLabel": "dynamic",
+    "notebook.inlineValues": "auto",
+    "notebook.insertFinalNewline": true,
+    "notebook.multiCursor.enabled": true,
+    "notebook.outline.showCodeCells": true,
+    "notebook.output.minimalErrorRendering": true,
+    "notebook.variablesView": true
 }
